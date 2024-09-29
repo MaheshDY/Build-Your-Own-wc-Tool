@@ -10,4 +10,4 @@ This challenge is to build your own version of the Unix command-line tool `wc`!
 - `ccwc -m test.txt`: Counts characters.
 - `ccwc test.txt`: By default, shows lines, words, and bytes.
 
-<img width="545" alt="image" src="https://github.com/user-attachments/assets/6f942606-c9f1-41c2-87ef-ea8db3f8fa2a">
+<img width="560" alt="image" src="https://github.com/user-attachments/assets/b5216b56-4280-4cbb-b12b-9c8a9294a5e0">
