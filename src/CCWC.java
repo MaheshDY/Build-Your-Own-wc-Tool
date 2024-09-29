@@ -51,9 +51,7 @@ public class CCWC {
         case "-l" -> System.out.printf("%8d %s%n", lineCount, fileName);
         case "-w" -> System.out.printf("%8d %s%n", wordCount, fileName);
         case "-m" -> {
-          long charCount = Files.lines(filePath)
-              .mapToLong(String::length)
-              .sum();
+          long charCount = Files.readString(filePath).length();
           System.out.printf("%8d %s%n", charCount, fileName);
         }
         default -> System.out.println("Unsupported option");
